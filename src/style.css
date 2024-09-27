@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body{
+    background-color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    height: 40px;
+}   
+
+.search-icon{
+    background-color:white;
+    padding: 9px 15px 10px 15px;
+}
+
+.h-icons{
+    width: 150px;
+}
+
+.car{
+    margin-top: -140px;
+}
+
+.games{
+    height: 450px;
+}
+
+.home-div{
+    bottom: 250px;
+    z-index: 1;
+    left: 410px;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 150px;
+}
+
+
+/* section 3 */
+.reviews{
+    height: 2px;
+    background-color: rgb(99, 99, 95);
+    width: 60px;
+}
+
+.game-review{
+    height: 350px;
+}
+
+.reviews-div{
+    margin-top: -110px;
+}
+
+/* Section 4 */
+
+.playing{
+    height: 2px;
+    width: 150px;
+    background-color: rgb(99, 99, 95);
+}
+
+.play-list{
+    width:280px;
+}
+
+/* Section 5 */
+.platform{
+    height: 2px;
+    background-color: rgb(99, 99, 95);
+    width: 90px;
+}
+
+/* Section 6  */
+.posts{
+    height: 2px;
+    background-color: rgb(99, 99, 95);
+    width: 150px;
+}
+
+.post:hover{
+    color: red;
+ }
+
+.posts1{
+    height: 2px;
+    background-color: rgb(99, 99, 95);
+    width: 180px;
+}
+
+.posts-figure{
+    height: 200px;
+    width: 290px;
+}
+
+/* section6-2 */
+.search{
+    height: 2px;
+    background-color: rgb(99, 99, 95);
+    width: 200px;
+}
+
+.input::placeholder{
+    color: white;
+}
+
+.btn{
+    color: white;
+}
+.btn:hover{
+   color: red;
+}
+
+.figimg{
+    height: 130px;
+    width: 130px;
+}
+
+.tags{
+    height: 2px;
+    background-color: rgb(99, 99, 95);
+    width: 160px;
+}
+
+.tags-text{
+    color: #999;
+    padding: 6px 10px 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #dedede;
+}
+
+.input2::placeholder{
+    color: white;
+}
+
+.touch{
+    height: 2px;
+    background-color: rgb(99, 99, 95);
+    width: 160px;
+}
+
+.icons-section:hover{
+    color: red;
+}
+
+.footer{
+    background-color: #161616;
+}
+
+@media (min-width:768px){
+    .games{
+        height: 260px;
+    }
+    .reviews{
+        width: 260px;
+    }
+    .playing{
+        width:500px
+    }
+    .platform{
+        width: 150px;
+    }
+    .posts{
+        width: 300px;
+    }
+    .posts1{
+        width: 550px;
+    }
+    .posts-figure{
+        height: 200px;
+        width: 290px;
+    }
+    .home-div{
+        bottom: 120px;
+        left: 190px;
+        width: 400px;
+        height: 150px;
+    }
+    .search{
+        height: 2px;
+        width: 570px;
+    }
+    .figimg{
+        height: 110px;
+        width: 160px;
+    }
+    .tags{
+        width: 540px;
+    }
+    .touch{
+        width: 530px;
+    }
+}
+
+@media (min-width:992px){
+    .games{
+        height: 350px;
+    }
+    .reviews{
+        width: 370px;
+    }
+    .playing{
+        width:350px
+    }
+    .platform{
+        width: 210px;
+    }
+    .posts{
+        width: 430px;
+    }
+    .posts1{
+        width: 150px;
+    }
+    .posts-figure{
+        height: 250px;
+        width: 350px;
+    }
+    .home-div{
+        bottom: 190px;
+        left: 330px;
+        width: 450px;
+        height: 150px;
+    }
+    .search{
+        height: 2px;
+        width: 200px;
+    }
+    .figimg{
+        height: 130px;
+        width: 110px;
+    }
+    .tags{
+        width: 150px;
+    }
+    .touch{
+        width: 130px;
+    }
+}
+
+@media (min-width:1200px){
+    .games{
+        height: 390px;
+    }
+    .reviews{
+        width: 460px;
+    }
+    .playing{
+        width:550px
+    }
+    .platform{
+        width: 310px;
+    }
+    .posts{
+        width: 540px;
+    }
+    .posts1{
+        width: 200px;
+    }
+    .posts-figure{
+        height: 220px;
+        width: 350px;
+    }
+    .home-div{
+        bottom: 250px;
+        left: 410px;
+    }
+    .search{
+        height: 2px;
+        width: 250px;
+    }
+    .figimg{
+        height: 100px;
+        width: 130px;
+    }
+    .tags{
+        width: 220px;
+    }
+    .touch{
+        width: 200px;
+    }
+}
